@@ -44,7 +44,7 @@ python main.py
 Basta editar o `catalog.json` e adicionar um novo item, sem precisar mexer no código:
 
 ```json
-{"nome": "Impressora Marketing", "ip": "192.168.1.52", "driver": "HP Universal Printing PCL 6"}
+{"nome": "Impressora Marketing", "ip": "192.168.1.52"}
 ```
 
 ## Estrutura do projeto
