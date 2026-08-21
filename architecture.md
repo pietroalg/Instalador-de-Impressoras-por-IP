@@ -27,9 +27,6 @@ Concentra toda a comunicação com o Windows, feita via **PowerShell** (chamado 
 | Função | Responsabilidade |
 |---|---|
 | `add_printer(nome, ip, driver)` | Cria a porta TCP/IP (se não existir) e cadastra a impressora |
-| `test_print(nome)` | Envia página de teste para validar a instalação |
-| `list_installed_printers()` | Consulta impressoras já instaladas na máquina |
-
 Essa camada foi isolada da interface propositalmente: se no futuro a GUI for trocada (por uma versão web, CLI, etc.), a lógica de instalação não precisa ser reescrita.
 
 ### `catalog.json` — Camada de dados
